@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="bootstrap/css/fontawesome-all.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/mdb.css">
+    <link rel="stylesheet" href="bootstrap/css/style.css">
+    <title>Navbar in Bootstrap4</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Navbar in Bootstrap4</a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+</nav>
+
+<div class="container mt-5">
+    <!--########################START HERE#########################-->
+
+    <!-- SIMPLE NAVBAR -->
+    <h3>SIMPLE NAVBAR</h3>
+    <nav class="navbar navbar-dark bg-dark navbar-expand-sm">
+        <div class="container">
+            <a  href="#" class="navbar-brand">
+                Navbar Brand </a>
+
+            <div class="collapse navbar-collapse" id="simplenavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a  href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a  href="#" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <br><br>
+
+    <!-- NAVBAR WITH RESPONSIVE TOGGLE -->
+    <h3>NAVBAR With Responsive toggle</h3>
+    <nav class="navbar navbar-dark bg-dark navbar-expand-sm">
+        <div class="container">
+            <a href="#" class="navbar-brand">Navbar Brand</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#NavbarResponse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="NavbarResponse">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <br><br>
+
+
+    <!-- NAVBAR WITH FORM -->
+    <h2>NAVBAR WITH FORM</h2>
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+        <div class="container">
+            <a href="#" class="navbar-brand">Navbar Brand</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#NavBarForm">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="NavBarForm">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <form class="form-inline ml-auto">
+                    <div class="form-group">
+                        <input type="text" placeholder="Search here" class="form-control">
+                    </div>
+                    <button class="btn btn-outline-secondary btn-sm">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <br><br>
+
+
+    <!-- NAVBAR WITH DROPDOWN -->
+    <h2>NAVBAR WITH DROPDOWN</h2>
+
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+        <div class="container">
+            <a href="#" class="navbar-brand">Navbar Brand</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#NavBarFormWithDropDown">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="NavBarFormWithDropDown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Courses</a>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item bg-light">HTML</a>
+                            <a href="#" class="dropdown-item bg-light">HTML5</a>
+                            <a href="#" class="dropdown-item bg-light">CSS</a>
+                            <a href="#" class="dropdown-item bg-light">CSS3</a>
+                            <a href="#" class="dropdown-item bg-light">JavaScript</a>
+                        </div>
+                    </li>
+                </ul>
+                <form class="form-inline ml-auto">
+                    <div class="form-group">
+                        <input type="text" placeholder="Search here" class="form-control">
+                    </div>
+                    <button class="btn btn-outline-secondary btn-sm">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <br><br>
+
+
+    <!-- COLORS -->
+       <h2>Colors</h2>
+    <nav class="navbar navbar-dark bg-info navbar-expand-md">
+        <div class="container">
+            <a href="#" class="navbar-brand">Navbar Brand</a>
+
+            <div class="collapse navbar-collapse" id="navbarcol">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <h2>Colors</h2>
+    <nav class="navbar navbar-dark bg-secondary navbar-expand-md">
+        <div class="container">
+            <a href="#" class="navbar-brand">Navbar Brand</a>
+
+            <div class="collapse navbar-collapse" id="navbarcolo">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <h2>Colors</h2>
+    <nav class="navbar navbar-dark bg-primary navbar-expand-md">
+        <div class="container">
+            <a href="#" class="navbar-brand">Navbar Brand</a>
+
+            <div class="collapse navbar-collapse" id="navbarcolor">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+</div><!-- ./container -->
+    <div style="margin-top:500px;"></div>
+
+<!-- BODY ENDS -->
+<script src="bootstrap/js/fontawesome-all.js"></script>
+<script src="bootstrap/js/jquery-3.2.1.min.js"></script>
+<script src="bootstrap/js/popper.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="bootstrap/js/mdb.min.js"></script>
+</body>
+</html>
