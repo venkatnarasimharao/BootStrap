@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="bootstrap/css/fontawesome-all.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/mdb.css">
+    <link rel="stylesheet" href="bootstrap/css/style.css">
+    <title>Grid System in Bootstrap4</title>
+    <style>
+        div{
+            border: 2px solid greenyellow;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Grid System in Bootstrap4</a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+</nav>
+
+<div class="container mt-5">    <!--container-fluid we get full browser width-->
+    <!--in coloum we have only total of 12 (12 col layers)-->
+    <!--########################START HERE#########################-->
+
+    <!-- AUTO LAYOUT COLUMNS -->
+    <div class="container">
+        <div class="row text-center">
+            <div class="col">
+                <h2>Col</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur cum explicabo nesciunt non officia perspiciatis ullam? Iure totam vel voluptatem.</p>
+            </div>
+            <div class="col">
+                <h2>Col-2</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, eos ipsum magnam magni nemo quisquam?</p>
+            </div>
+            <div class="col">
+                <h2>Col-3</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid assumenda dicta ducimus ipsa officiis.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-3">
+                <h2>Col-1</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis impedit iste nostrum officia quae tenetur veritatis. Iste quidem tempore ullam?</p>
+            </div>
+            <div class="col-md-6">
+                <h2>Col-2</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis impedit iste nostrum officia quae tenetur veritatis. Iste quidem tempore ullam?</p>
+            </div>
+            <div class="col-md-3">
+                <h2>Col-3</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis impedit iste nostrum officia quae tenetur veritatis. Iste quidem tempore ullam?</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- RESPONSIVE CLASSES -->
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-6 col-lg-4">
+                <h2>Col-md-4</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deserunt ducimus maiores maxime? Adipisci doloremque eligendi nisi nostrum, odio quisquam quo velit voluptatem. Eius magnam maiores molestiae pariatur sit. Aspernatur at corporis nobis non officia officiis quia similique. Error, nisi.</p>
+            </div>
+            <div class="col-md-6 col-lg-8">
+                <h2>Col-md-8</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deserunt ducimus maiores maxime? Adipisci doloremque eligendi nisi nostrum, odio quisquam quo velit voluptatem. Eius magnam maiores molestiae pariatur sit. Aspernatur at corporis nobis non officia officiis quia similique. Error, nisi.</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- NESTING GRIDS -->
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-4">
+                <h2>Col-md-4</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deserunt ducimus maiores maxime? Adipisci doloremque eligendi nisi nostrum, odio quisquam quo velit voluptatem. Eius magnam maiores molestiae pariatur sit. Aspernatur at corporis nobis non officia officiis quia similique. Error, nisi.</p>
+            </div>
+            <div class="col-md-8">
+                <h2>Col-md-8</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deserunt ducimus maiores maxime? Adipisci doloremque eligendi nisi nostrum, odio quisquam quo velit voluptatem. Eius magnam maiores molestiae pariatur sit. Aspernatur at corporis nobis non officia officiis quia similique. Error, nisi.</p>
+                <div class="row">
+                    <div class="col-md-4">
+                        <h2>col-md-4</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam at, consequuntur cum, distinctio, iusto nam natus nihil odio optio quaerat quam quia quo quos recusandae repellendus reprehenderit temporibus ut voluptate?</p>
+                    </div>
+                    <div class="col-md-8">
+                        <h2>col-md-8</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad alias consectetur distinctio dolor dolores doloribus et laudantium modi molestias natus, neque nisi nobis quasi quisquam repellendus sit soluta, tenetur voluptas. Distinctio eligendi libero modi odit qui quia, repellendus? Accusamus consequatur cupiditate earum error eveniet expedita harum minima nesciunt quia saepe!</p>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h2>col-md-6</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem doloremque doloribus facilis fuga laboriosam laudantium libero nemo obcaecati? Architecto consectetur cumque eius ipsam iure, obcaecati praesentium quae quaerat sapiente temporibus.</p>
+                            </div>
+                            <div class="col-md-6">
+                                <h2>col-md-6</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem doloremque doloribus facilis fuga laboriosam laudantium libero nemo obcaecati? Architecto consectetur cumque eius ipsam iure, obcaecati praesentium quae quaerat sapiente temporibus.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+  </div>
+
+  <div style="margin-top:500px;"></div>
+
+<!-- BODY ENDS -->
+<script src="bootstrap/js/fontawesome-all.js"></script>
+<script src="bootstrap/js/jquery-3.2.1.min.js"></script>
+<script src="bootstrap/js/popper.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="bootstrap/js/mdb.min.js"></script>
+</body>
+</html>
